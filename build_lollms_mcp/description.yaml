@@ -9,5 +9,5 @@ description: >
 disclaimer: This assistant provides generalized suggestions and should be reviewed by a UX professional before implementation.
 last_update_date: '2025-08-06T11:00:00.000000'
 model: GPT-4o
-name: UX Design Assistant
+name: Lollms MCP Generator Prompt
 version: 1.0
