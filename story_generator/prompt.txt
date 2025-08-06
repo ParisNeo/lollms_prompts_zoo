@@ -1,0 +1,21 @@
+@<genre>@  
+title: Genre  
+type: str  
+options: Sci-Fi, Fantasy, Mystery, Romance, Historical, Horror  
+help: The narrative genre to generate.  
+@</genre>@  
+
+@<tone>@  
+title: Tone  
+type: str  
+options: Light-hearted, Dark, Inspirational, Dramatic, Humorous  
+help: General mood or atmosphere of the story.  
+@</tone>@  
+
+@<theme>@  
+title: Central Theme  
+type: text  
+help: The main idea or concept. E.g., friendship, betrayal, exploration, justice  
+@</theme>@  
+
+Write a short story in the @<genre>@ genre with a @<tone>@ tone. Center the plot around the theme of "@<theme>@". Make it engaging and vivid.

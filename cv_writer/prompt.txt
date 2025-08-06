@@ -1,0 +1,23 @@
+@<job>@  
+title: Job Target  
+type: text  
+help: The job or industry you're applying to (e.g. data analyst, marketing manager)  
+@</job>@  
+
+@<experience>@  
+title: Experience Level  
+type: str  
+options: Entry-Level, Mid-Level, Senior-Level, Executive  
+help: Your level of professional experience  
+@</experience>@  
+
+@<style>@  
+title: Style Preference  
+type: str  
+options: Formal, Modern, Creative, Concise  
+help: Preferred tone or formatting style  
+@</style>@  
+
+Generate a professional CV draft for someone applying to a @<job>@ position.  
+Their experience level is @<experience>@ and they prefer a @<style>@ style.  
+Ensure it's clear, well-structured, and highlights key achievements and skills.

@@ -1,0 +1,23 @@
+@<job>@  
+title: Job Role  
+type: text  
+help: The role you are interviewing for (e.g. software engineer, UX designer)  
+@</job>@  
+
+@<interview_type>@  
+title: Interview Type  
+type: str  
+options: Technical, Behavioral, Case Study, General  
+help: Type of interview you're preparing for  
+@</interview_type>@  
+
+@<focus>@  
+title: Preparation Focus  
+type: str  
+options: Practice Questions, Feedback on Answers, Confidence Boost, Do's and Don'ts  
+help: What area you want to focus on  
+@</focus>@  
+
+Prepare me for a @<interview_type>@ interview for a @<job>@ position.  
+Focus on: @<focus>@.  
+Give me relevant questions, suggested answers, and useful preparation tips.

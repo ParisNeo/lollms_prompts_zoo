@@ -1,0 +1,9 @@
+author: ParisNeo & Lollmz
+category: Developer Tools
+creation_date: '2025-08-06T17:29:19.067436'
+description: Improve the readability, structure, and efficiency of a given piece of code. Choose between different goals such as performance, readability, or modernization.
+disclaimer: Optimizations may require testing to ensure no unintended side effects. Manual review recommended.
+last_update_date: '2025-08-06T17:29:19.067436'
+model: GPT-4o
+name: Code Optimizer
+version: 1.0

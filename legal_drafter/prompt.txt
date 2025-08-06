@@ -1,0 +1,21 @@
+@<doctype>@  
+title: Document Type  
+type: str  
+options: NDA, Terms of Service, License Agreement, Partnership Contract  
+help: The type of legal document to draft.  
+@</doctype>@  
+
+@<tone>@  
+title: Tone  
+type: str  
+options: Formal, Strict, Balanced, Friendly  
+help: The level of formality or tone required.  
+@</tone>@  
+
+@<purpose>@  
+title: Purpose or Context  
+type: text  
+help: What the document is for or what it should achieve.  
+@</purpose>@  
+
+Draft a @<tone>@ @<doctype>@ document. Make sure it's suitable for the purpose described: "@<purpose>@". Ensure clarity and legal consistency.

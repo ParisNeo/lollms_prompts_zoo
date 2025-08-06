@@ -1,0 +1,8 @@
+@<goal>@  
+title: Optimization Goal  
+type: str  
+options: Performance, Readability, Modernization, Reduce Complexity  
+help: The main goal for optimizing the code.  
+@</goal>@  
+
+Optimize the following code for @<goal>@. Maintain functionality while applying relevant improvements. Comment on any major changes made.

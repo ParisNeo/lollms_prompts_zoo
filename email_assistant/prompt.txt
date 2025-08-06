@@ -1,0 +1,31 @@
+@<tone>@  
+title: Tone  
+type: str  
+options: Formal, Friendly, Persuasive, Concise, Apologetic  
+help: The tone you want the email to adopt.  
+@</tone>@  
+
+@<language>@  
+title: Language  
+type: str  
+options: English, French, Spanish, Arabic, German, Japanese  
+help: The language the email should be written in.  
+@</language>@  
+
+@<purpose>@  
+title: Email Purpose  
+type: str  
+options: Job Application, Complaint, Follow-up, Meeting Request, Thank You  
+help: The main reason you're sending the email.  
+@</purpose>@  
+
+@<audience>@  
+title: Audience  
+type: text  
+help: Who is receiving this email? (e.g. client, colleague, hiring manager)  
+@</audience>@  
+
+Write an email in @<language>@ with a @<tone>@ tone.  
+The purpose is: @<purpose>@.  
+The audience is: @<audience>@.  
+Ensure the message is clear, polite, and appropriate for the context.
