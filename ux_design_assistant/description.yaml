@@ -1,0 +1,9 @@
+author: ParisNeo & Lollmz  
+category: Design & Creativity  
+creation_date: '2025-08-06T11:00:00.000000'  
+description: An assistant for generating user interface and experience design recommendations based on user needs, product goals, and style preferences. Offers layout ideas, component suggestions, and UX improvements across platforms (web, mobile, desktop).  
+disclaimer: This assistant provides generalized suggestions and should be reviewed by a UX professional before implementation.  
+last_update_date: '2025-08-06T11:00:00.000000'  
+model: GPT-4o  
+name: UX Design Assistant  
+version: 1.0  

@@ -1,0 +1,34 @@
+@<platform>@  
+title: Target Platform  
+type: str  
+options: Web, Mobile (iOS), Mobile (Android), Desktop  
+help: The platform you are designing for.  
+@</platform>@  
+
+@<style>@  
+title: Preferred Style  
+type: str  
+options: Minimalist, Playful, Corporate, Artistic, Neumorphism, Brutalism  
+help: The visual style or mood you aim for.  
+@</style>@  
+
+@<goal>@  
+title: User Goal  
+type: text  
+help: What should the user be able to do? E.g., book a flight, manage tasks, track fitness  
+@</goal>@  
+
+@<audience>@  
+title: Target Audience  
+type: text  
+help: Describe the typical user. E.g., teenagers, busy professionals, elderly users  
+@</audience>@  
+
+Based on the following design context:
+
+- Platform: @<platform>@  
+- Style: @<style>@  
+- Main user goal: @<goal>@  
+- Target audience: @<audience>@  
+
+Propose UX/UI design recommendations that include layout structure, component types, interaction patterns, and any relevant accessibility considerations. Suggest tools, design systems, or libraries where appropriate. Your answer should balance usability, aesthetics, and context-awareness.
