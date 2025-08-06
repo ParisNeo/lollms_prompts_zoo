@@ -1,0 +1,177 @@
+@<mcp_name>@
+title: MCP Name
+type: str
+default: MyMCP
+help: This is the name of the MCP (e.g., Coding_MCPs)
+@</mcp_name>@
+
+@<description>@
+title: Short Description
+type: str
+default: A powerful tool for LLMs
+help: General purpose of the MCP (e.g., Tools to execute and analyze code for LLMs)
+@</description>@
+
+@<author>@
+title: Author Name
+type: str
+default: YourName
+help: Your name or identifier
+@</author>@
+
+@<version>@
+title: Version
+type: str
+default: 1.0
+help: MCP version (e.g., 1.0)
+@</version>@
+
+@<creation_date>@
+title: Creation Date
+type: str
+default: 2025-08-06
+help: Use format YYYY-MM-DD
+@</creation_date>@
+
+@<last_update>@
+title: Last Update Date
+type: str
+default: 2025-08-06
+help: Use format YYYY-MM-DD
+@</last_update>@
+
+@<category>@
+title: Category
+type: str
+default: Development
+help: Domain of the MCP (e.g., Development, Data, Robotics)
+@</category>@
+
+@<transport>@
+title: Transport Protocol
+type: str
+default: streamable-http
+options: stdio, sse, streamable-http
+help: Select the transport protocol used by the MCP
+@</transport>@
+
+@<tools>@
+title: Tool List
+type: str
+default: run_code, format_code
+help: Comma-separated list of tools to implement (e.g., run_code, format_code)
+@</tools>@
+
+@<tool_details>@
+title: Tool Specifications
+type: str
+default: run_code executes python code, format_code formats using black
+help: Description of what each tool does and how it should behave (JSON or structured text)
+@</tool_details>@
+
+@<dependencies>@
+title: Dependencies
+type: str
+default: mcp, black
+help: Comma-separated list of Python libraries required (e.g., mcp, black, radon)
+@</dependencies>@
+
+@<config_options>@
+title: Configuration Options
+type: str
+default: {"timeout": {"type": "integer", "default": 10, "minimum": 1, "envVar": "MCP_TIMEOUT"}}
+help: JSON schema for configuration fields, types, defaults, env vars
+@</config_options>@
+
+@<default_config>@
+title: Default Config Values
+type: str
+default: timeout: 10
+help: YAML configuration defaults matching schema.config.json
+@</default_config>@
+
+
+You are building a complete MCP (Model Context Protocol) for the LOLLMS ecosystem.
+
+Your goal is to generate all necessary files to create a functional and usable MCP that can be integrated into LOLLMS.
+
+---
+
+MCP DESCRIPTION
+===============
+
+Name: @<mcp_name>@
+Author: @<author>@
+Category: @<category>@
+Version: @<version>@
+Created: @<creation_date>@
+Last Updated: @<last_update>@
+Transport Protocol: @<transport>@
+Summary: @<description>@
+
+Tools to implement:
+@<tools>@
+
+Tool specifications:
+@<tool_details>@
+
+Python dependencies:
+@<dependencies>@
+
+Configuration schema (JSON):
+@<config_options>@
+
+Default configuration (YAML):
+@<default_config>@
+
+---
+
+📦 Please generate the following files:
+
+### 📄 `description.yaml`
+YAML file containing metadata about the MCP.
+
+### 📦 `requirements.txt`
+List of Python packages required for the MCP.
+
+### ⚙️ `schema.config.json`
+A JSON schema defining optional configuration fields (if any).
+
+### 🛠️ `config.yaml`
+Default values for the configuration.
+
+### 🚀 `server.py`
+This is the main server file for the MCP:
+- It must use `FastMCP` from the `mcp` library.
+- It must define tools with `@mcp.tool`.
+- It must use `pathlib` for all path handling.
+- Each tool should be async and return a dictionary as output.
+- Follow modern, clean Python coding style.
+- No placeholders or inline comments.
+
+Structure your answer using fenced code blocks like this:
+
+### 📄 `description.yaml`
+```yaml
+...content...
+```
+
+### 📄 `requirements.txt`
+```plaintext
+...content...
+```
+
+### 📄 `schema.config.json`
+```json
+...content...
+```
+
+### 📄 `config.yaml`
+```yaml
+...content...
+```
+
+### 📄 `server.py`
+```python
+...content...
+```

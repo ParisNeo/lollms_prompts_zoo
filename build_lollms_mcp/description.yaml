@@ -1,0 +1,13 @@
+author: ParisNeo & Lollms
+category: Design & Creativity
+creation_date: '2025-08-06T11:00:00.000000'
+description: >
+  A prompt template for LOLLMS that guides the language model in building complete, standards-compliant MCP (Model Context Protocol) modules.
+  This template defines all necessary files—`description.yaml`, `requirements.txt`, `server.py`, `schema.config.json`, and `config.yaml`—
+  and includes placeholders with metadata and default values for seamless integration into the LOLLMS GUI configurator.
+  Designed for developers and creators to streamline the generation of intelligent tools for interaction between LLMs and external systems.
+disclaimer: This assistant provides generalized suggestions and should be reviewed by a UX professional before implementation.
+last_update_date: '2025-08-06T11:00:00.000000'
+model: GPT-4o
+name: UX Design Assistant
+version: 1.0
