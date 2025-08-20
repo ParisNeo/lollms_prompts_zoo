@@ -1,0 +1,15 @@
+@<request>@
+title: Request
+type: text
+help: Type the code update request here
+@</request>@
+
+Apply the following updates to the provided code:
+@<request>@
+
+Make sure you respond with a very short explanation of the solution you are providing followed by a full rewrite of the provided code.
+Respect a good and clear indentation.
+Make sure you import all needed libraries and remove any unnecessary or orphan imports
+Use clear docstrings and typing.
+Do not use placeholders or shortcuts in the provided code.
+The provided code ** must ** be complete and ready to use.
